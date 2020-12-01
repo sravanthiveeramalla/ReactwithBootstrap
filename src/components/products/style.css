@@ -1,0 +1,29 @@
+.lower-head {
+  color: black;
+}
+.block-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*border: 1px solid;*/
+}
+.block-div {
+  width: 95%;
+  max-height: 280px;
+  box-shadow: 2px;
+  margin: 20px;
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius: 5px;
+  padding: 0px;
+}
+.block-image {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block-text {
+  margin-bottom: 12px;
+}

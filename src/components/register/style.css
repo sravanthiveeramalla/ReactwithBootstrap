@@ -1,0 +1,37 @@
+.form-heading {
+  text-align: center;
+}
+.form-wrapper {
+  border: 1px solid #000;
+  width: 30%;
+  margin: 0px;
+  padding: 10px;
+  position: absolute;
+  left: 35%;
+}
+.form-group {
+  padding: 10px;
+}
+.form-group > label {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  background-color: #03254c;
+  color: #fff;
+  padding: 12px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  width: 100%;
+}
