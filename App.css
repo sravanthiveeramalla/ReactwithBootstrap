@@ -1,0 +1,49 @@
+body {
+  font-family: "Brush Script MT", cursive;
+  font-weight: 600;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiV3m51tE4-cMnV2FHHHZ--GzZyNEdpl73Ig&usqp=CAU");
+  background-repeat: no-repeat;
+  background-origin: initial;
+  background-size: cover;
+  object-fit: cover;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  background-image: url("https://image.shutterstock.com/z/stock-photo-creative-layout-made-of-colorful-tropical-leaves-on-white-background-minimal-summer-exotic-concept-1074927038.jpg");
+  background-repeat: no-repeat;
+  background-origin: initial;
+  background-size: cover;
+  object-fit: cover;
+  padding: 0px 0px 0px 0px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
