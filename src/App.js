@@ -6,11 +6,17 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/home/home.js";
 import Register from "./components/register/register.js";
 import Login from "./components/login/login.js";
+import Header from "./header.js";
 function App() {
   return (
     <Router>
       <div className="header-block">
         <div className="header-head">
+          <div className="header-right">
+          <a className="a-head" href="/">
+              Home
+            </a>
+          </div>
           <div className="header-left">
             <h1> Super App</h1>
           </div>
@@ -24,6 +30,7 @@ function App() {
             </a>
           </div>
         </div>
+        <Header />
         <img className="header-img" src="../images/header-img.jpg" />
       </div>
       <div className="body-block">

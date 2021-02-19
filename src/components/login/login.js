@@ -12,7 +12,7 @@ class Login extends React.Component {
           <div className="form-wrap-col2">
         <h2 className="form-heading">Login</h2>
             <div className="form-group">
-              <label id="email-label">Email</label>
+              <label id="email-label">Email Address</label>
               <div className="form-input">
                 <input type="text" name="email" placeholder="Email" />
               </div>

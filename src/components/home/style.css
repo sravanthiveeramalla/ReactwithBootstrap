@@ -17,7 +17,9 @@
   padding: 20px;
   width: 97%;
   text-align: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 1px solid #fff;
 }
 .block-section {
   display: flex;
